@@ -55,7 +55,7 @@ class Categories extends StatelessWidget {
                       Navigator.pushNamed(context, SignInScreen.routeName)),
               CategoryCard(
                   icon: "assets/icons/TIK.svg",
-                  text: "TIK",
+                  text: "Infrastruktur",
                   press: () =>
                       Navigator.pushNamed(context, SignInScreen.routeName)),
               CategoryCard(
