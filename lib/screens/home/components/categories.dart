@@ -3,6 +3,7 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:shop_app/screens/profile/profile_screen.dart';
 import 'icon_btn_with_counter.dart';
 import 'package:shop_app/screens/sign_in/sign_in_screen.dart';
+import 'package:shop_app/screens/profile/profile_screen.dart';
 
 import '../../../size_config.dart';
 
@@ -23,7 +24,7 @@ class Categories extends StatelessWidget {
                   icon: "assets/icons/Visi Misi.svg",
                   text: "Visi & Misi",
                   press: () =>
-                      Navigator.pushNamed(context, SignInScreen.routeName)),
+                      Navigator.pushNamed(context, ProfileScreen.routeName)),
               CategoryCard(
                   icon: "assets/icons/Tujuan Sasaran.svg",
                   text: "Tujuan & Sasaran ",
